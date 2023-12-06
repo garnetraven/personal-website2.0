@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'
 import styles from '../styles/Blog.module.css'
+import Link from 'next/link'
 
 export default function Blog() {
   const [posts, setPosts] = useState([])
@@ -30,10 +31,10 @@ export default function Blog() {
         </h1>
 
         {posts.map(post =>(
-          <div key={post.id}>
+          <Link href={`/post/${post.id}`} key={post.id}>
             <h2>{post.title}</h2>
-            <p>{post.content}</p>
-          </div>
+            <p>{post.date}</p>
+        </Link>
         ))}
       </main>
 
