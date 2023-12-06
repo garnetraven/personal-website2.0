@@ -30,9 +30,21 @@ export default function About() {
           Disciplines
         </h1>
         <hr />
-        <p className={styles.description}>
-          Lorem ipsum...
-        </p>
+        <h3>Software Engineering</h3>
+        <ul>
+          <li>
+            Designing reactive front-end UI's with HTML, CSS, and JavaScript
+          </li>
+          <li>
+            Managing data with MySQL, MongoDB, and REST API's
+          </li>
+          <li>
+            Maintaining projects with Git, GitHub and Docker
+          </li>
+          <li>
+            Quickly learning new technologies, frameworks, and libraries while adapting to the needs of a project
+          </li>
+        </ul>
         <h1 className={styles.title}>
           Resume
         </h1>
