@@ -33,6 +33,12 @@ export default function About() {
         <h3>Software Engineering</h3>
         <ul>
           <li>
+            Building scalable back-end applications & tools in Python, C, C++, Java, and JavaScript
+          </li>
+          <li>
+            Writing firmware for embedded systems using C, C++, and Arduino
+          </li>
+          <li>
             Designing reactive front-end UI's with HTML, CSS, and JavaScript
           </li>
           <li>
