@@ -16,7 +16,7 @@ export default function Blog() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My Blog Posts        
+          Posts        
         </h1>
 
         <p className={styles.description}>
