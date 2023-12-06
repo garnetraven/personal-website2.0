@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #215085;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar .links {
+    display: flex;
+    justify-content: center;
+    gap: 250px; /* adjust as needed */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar a.active {
+    border-bottom: 2px solid #fff;
+  }
