@@ -33,7 +33,7 @@ export default function About() {
         <h1>
           Resume
         </h1>
-        <p>Below, you can find the latest copy of my resume. You can also <a href='public/files/resume.pdf' target='_blank'>download it</a>.</p>
+        <p>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
         <hr />
         <h1>
           Contact
