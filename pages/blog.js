@@ -1,15 +1,13 @@
-// pages/posts/[id].js
 import Head from 'next/head'
 import Navbar from 'components/Navbar'
 import Footer from 'components/Footer'
-import styles from '../../styles/Blog.module.css'
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import styles from '../styles/Blog.module.css'
 
-export default function Post({ postData }) {
+export default function Blog() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{postData.title}</title>
+        <title>Blog Page</title>
         <meta name="description" content="My blog posts" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,30 +16,15 @@ export default function Post({ postData }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {postData.title}        
+          My Blog Posts        
         </h1>
 
-        <div className={styles.description} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <p className={styles.description}>
+          Coming soon...
+        </p>
       </main>
 
       <Footer />
     </div>
   )
-}
-
-export async function getStaticPaths() {
-  const paths = getAllPostIds()
-  return {
-    paths,
-    fallback: false
-  }
-}
-
-export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id)
-  return {
-    props: {
-      postData
-    }
-  }
 }
