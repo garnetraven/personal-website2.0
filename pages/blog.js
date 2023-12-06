@@ -8,8 +8,8 @@ export default function Blog() {
   const [posts, setPosts] = useState([])
 
   useEffect(() => {
-    // Fetch posts from local filesystem
-    fetch('/posts')
+    // Fetch posts from local file
+    fetch('/posts/posts.json')
       .then(response => response.json())
       .then(data => setPosts(data))
   }, []);
