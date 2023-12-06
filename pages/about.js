@@ -36,8 +36,8 @@ export default function About() {
         <h1 className={styles.title}>
           Resume
         </h1>
-        <p className={styles.description}>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
         <hr />
+        <p className={styles.description}>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
         <img src='images/resume.png' alt='Resume' width={800} height={1035} />
         <h1 className={styles.title}>
           Contact
