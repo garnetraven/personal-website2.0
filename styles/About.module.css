@@ -23,11 +23,11 @@
     opacity: 0.1;
   }
   
-  .a {
+  .main a {
     color: #0070f3;
     text-decoration: none;
   }
   
-  .a:hover {
+  .main a:hover {
     text-decoration: none;
   }

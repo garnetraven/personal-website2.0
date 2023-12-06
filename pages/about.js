@@ -23,24 +23,27 @@ export default function About() {
           I am a Software Engineering Student at Arizona State University 
           interested in Computer Security and Real Time Simulations.
         </p>
-        <h1>
+        <p className={styles.description}>
+          I have over 3 years of programming experience and a <a href="http://www.github.com/garnetraven" target='_blank'>handful of personal projects</a>.
+        </p>
+        <h1 className={styles.title}>
           Disciplines
         </h1>
         <hr />
-        <p>
+        <p className={styles.description}>
           Lorem ipsum...
         </p>
-        <h1>
+        <h1 className={styles.title}>
           Resume
         </h1>
-        <p>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
+        <p className={styles.description}>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
         <hr />
         <img src='images/resume.png' alt='Resume' width={800} height={1035} />
-        <h1>
+        <h1 className={styles.title}>
           Contact
         </h1>
         <hr />
-        <p>
+        <p className={styles.description}>
           Email: <a href="mailto:corbinchristopher1@gmail.com" target="_blank">corbinchristopher1@gmail.com</a>
         </p>
       </main>
