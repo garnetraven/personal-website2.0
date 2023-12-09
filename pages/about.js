@@ -21,10 +21,10 @@ export default function About() {
         <hr />
         <p className={styles.description}>
           I am a Software Engineering Student at Arizona State University 
-          interested in Computer Security and Real Time Simulations.
+          interested in Computer Security and Machine Learning.
         </p>
         <p className={styles.description}>
-          I have over 3 years of programming experience and a <a href="http://www.github.com/garnetraven" target='_blank'>handful of personal projects</a>.
+          I have over 2 years of programming experience and a <a href="http://www.github.com/garnetraven" target='_blank'>handful of personal projects</a>.
         </p>
         <h1 className={styles.title}>
           Disciplines
@@ -34,9 +34,6 @@ export default function About() {
         <ul>
           <li>
             Building scalable back-end applications & tools in Python, C, C++, Java, and JavaScript
-          </li>
-          <li>
-            Writing firmware for embedded systems using C, C++, and Arduino
           </li>
           <li>
             Designing reactive front-end UI's with HTML, CSS, and JavaScript
@@ -55,7 +52,7 @@ export default function About() {
           Resume
         </h1>
         <hr />
-        <p className={styles.description}>Below, you can find the latest copy of my resume. You can also <a href='files/resume.pdf' target='_blank'>download it</a>.</p>
+        <p className={styles.description}>Here is the most recent version of my resume, and you can also access it by <a href='files/resume.pdf' target='_blank'>downloading the file</a>.</p>
         <img src='images/resume.png' alt='Resume' width={800} height={1035} />
         <h1 className={styles.title}>
           Contact
@@ -63,6 +60,9 @@ export default function About() {
         <hr />
         <p className={styles.description}>
           Email: <a href="mailto:corbinchristopher1@gmail.com" target="_blank">corbinchristopher1@gmail.com</a>
+        </p>
+        <p>
+          Discord: Corbin
         </p>
       </main>
 

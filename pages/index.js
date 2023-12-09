@@ -20,11 +20,11 @@ export default function Home() {
       <main className={styles.main}>
         <p className={styles.description}>
           Software Engineering Student at Arizona State University 
-          interested in Computer Security and Real Time Simulations.
+          interested in Computer Security and Machine Learning.
         </p>
         <p>
-        Currently splitting my time between second-year undergrad classes 
-        and working on personal projects.
+          I am currently dividing my attention between second-year undergraduate courses 
+          and dedicating time to personal projects.
         </p>
       </main>
 
